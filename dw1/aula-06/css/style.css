@@ -1,0 +1,185 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+.text10 {
+  width: 400px;
+  margin: 50px auto;
+  background-color: rgba(0, 153, 3, 1);
+  color: #aaddee;
+  text-decoration: dashed;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  transform: rotate(20deg);
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-radius: 50%;
+  border: 1px solid #000;
+  animation: uepa 10s infinite;
+}
+
+.text9 {
+  width: 400px;
+  margin: 50px 0;
+  background-color: rgba(0, 153, 3, .95);
+  color: #ffffff;
+  text-decoration: double;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  transform: rotate(30deg);
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-radius: 50%;
+  border: 1px solid #ff0000;
+  animation: uepa 9.5s infinite;
+}
+
+.text8 {
+  width: 400px;
+  margin: 50px 0;
+  background-color: rgba(0, 153, 3, .90);
+  text-decoration: dotted;
+  color: #00ff73;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  transform: rotate(40deg);
+  position: absolute;
+  top: 0;
+  right: 50%;
+
+  border-radius: 50%;
+  border: 1px solid #15ff63;
+  animation: uepa 9s infinite;
+}
+
+.text7 {
+  width: 400px;
+  margin: 50px 0;
+  background-color: rgba(0, 153, 3, .85);
+  color: #012937;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  transform: rotate(50deg);
+  position: absolute;
+  top: 0;
+  right: 50%;
+
+  border-radius: 50%;
+  border: 1px solid #000;
+  animation: uepa 8.5s infinite;
+}
+
+.text6 {
+  width: 400px;
+  margin: 50px 0;
+  background-color: rgba(0, 153, 3, .80);
+
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  transform: rotate(60deg);
+  position: absolute;
+  top: 0;
+  right: 50%;
+
+  border-radius: 50%;
+  border: 1px solid #c90000;
+  animation: uepa 8s infinite;
+}
+
+.text5 {
+  width: 400px;
+  margin: 50px 0;
+  background-color: #ff00c8;  background-color: rgba(0, 153, 3, .75);
+  color: #000000;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  transform: rotate(70deg);
+  position: absolute;
+  top: 0;
+  right: 50%;
+
+  border-radius: 50%;
+  border: 1px solid #00000041;
+  animation: uepa 7.5s infinite;
+}
+
+.text4 {
+  width: 400px;
+  margin: 50px 0;
+  background-color: rgba(0, 153, 3, .70);
+
+  color: #ffdd00;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  transform: rotate(80deg);
+  position: absolute;
+  top: 0;
+  right: 50%;
+
+  border-radius: 50%;
+  border: 1px solid #cf6c6c;
+  animation: uepa 7s infinite;
+}
+
+.text3 {
+  width: 400px;
+  margin: 50px 0;
+  background-color: rgba(0, 153, 3, .65);
+
+  color: #fff200;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 0;
+  right: 50%;
+
+  border-radius: 50%;
+  border: 1px solid #dfca10;
+  animation: uepa 6.5s infinite;
+}
+
+.text2 {
+  width: 400px;
+  margin: 50px 0;
+  background-color: rgba(0, 153, 3, .60);
+
+  color: #ff00ea;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  transform: rotate(100deg);
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-radius: 50%;
+  border: 1px solid #a9ffa3;
+  animation: uepa 6s infinite;
+}
+
+.text1 {
+  width: 400px;
+  margin: 50px 0;
+  background-color: rgba(0, 153, 3, .55);
+
+  color: #004c65;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  transform: rotate(110deg);
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-radius: 50%;
+  border: 1px solid #301bd0;
+  animation: uepa 5.5s infinite;
+}
+
+@keyframes uepa {
+  0% {
+    transform: rotate(720deg);
+  }
+  100% {
+    transform: rotate(-720deg);
+  }
+}

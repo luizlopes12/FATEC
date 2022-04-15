@@ -1,0 +1,30 @@
+cd \
+md FAT
+cd FAT
+title TIPOS DE ARQUIVOS
+md NTFS
+cd NTFS
+copy con NTFAT.txt
+FAT 32 - cada espaço de memória tem 32KB
+NTFS - cada espaço de memória tem 512bytes
+cd \
+md VIRTUAL
+copy c:\FAT\NTFS\*.txt c:\FAT
+cd FAT\NTFS
+cd ..
+copy con MEMORIAV.txt
+A memória virtual é uma parte do HD ou SSD que é reservado para armazenar os programas em execução quando a memória RAM está cheia.
+move NTFAT.txt c:\virtual
+cd NTFS 
+dir
+color 08
+move *.txt c:\virtual
+cd .. 
+rd /s NTFS
+cd ..
+rd /s FAT
+cd virtual
+type NTFAT.txt
+@md MEMORIA
+@copy *.* c:\virtual\memoria
+@ren arquivo.bat copiavirtual.bat
