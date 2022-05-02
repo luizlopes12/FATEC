@@ -1,0 +1,33 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*
+
+Fonte 1: font-family: 'Roboto', sans-serif;
+Fonte 2: font-family: 'Caveat', cursive;
+
+*/
+
+/* .header{
+    width: 100%;
+    height: 80px;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header img{
+    stroke: #fff;
+} */
+
+.banner {
+    width: 100%;
+}
+
+.banner video{
+    width: 100%;
+    height: 100%;
+}
