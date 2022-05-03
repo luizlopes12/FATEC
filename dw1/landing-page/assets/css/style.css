@@ -48,6 +48,10 @@ Fonte 2: font-family: 'Caveat', cursive;
     font-weight: bold;
 }
 
+.nav{
+    z-index: 9999;
+}
+
 .nav ul{
     list-style: none;
     display: flex;
@@ -58,7 +62,7 @@ Fonte 2: font-family: 'Caveat', cursive;
     border-bottom: 2px solid transparent;
     transition: all .2s linear;
 }
-.nav > li:hover{
+.nav li:hover{
     border-bottom: 2px solid #fff;
     cursor: pointer;
 }
