@@ -21,7 +21,6 @@ Banner inicial e Header
 */
 .banner {
   width: 100%;
-  background-attachment: fixed;
 }
 .banner video {
   width: 100%;
