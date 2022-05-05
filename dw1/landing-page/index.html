@@ -3,6 +3,7 @@
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="http://fonts.cdnfonts.com/css/valorant?styles=64778" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto:wght@100;300;400;500&display=swap"
       rel="stylesheet"
@@ -15,7 +16,12 @@
     <title>Valorant</title>
   </head>
   <body>
-    <div class="banner">
+      <!--
+        ************
+        Banner Principal
+        ************
+      -->
+    <section class="banner">
       <!--
         ************
         Header
@@ -28,17 +34,39 @@
         <nav class="nav">
           <ul>
             <li>
-              <p>O que é</p>
+              <p>
+                <a href="#intro">
+                  O que é
+                </a>
+              </p>
             </li>
             <li>
-              <p>Como jogar</p>
+              <p>
+                <a href="#intro">
+                Como jogar
+                </a>
+              </p>
             </li>
             <li>
-              <p>Receba</p>
+              <p>
+                <a href="#intro">
+                Players
+                </a>
+              </p>
             </li>
           </ul>
         </nav>
       </header>
+      <div class="title">
+        <span>
+          Um mesmo gênero
+        </span>
+        <h1>
+          Um novo estilo
+        </h1>
+
+      </div>
+
       <video
         preload="true"
         loop="true"
@@ -51,6 +79,12 @@
           type="video/mp4"
         />
       </video>
-    </div>
+      <div class='icon-scroll'></div>
+    </section>
+    <scroll-container>
+      <section id="intro" class="intro">
+      
+      </section>
+    </scroll-container>
   </body>
 </html>
