@@ -3,7 +3,10 @@
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="http://fonts.cdnfonts.com/css/valorant?styles=64778" rel="stylesheet">
+    <link
+      href="http://fonts.cdnfonts.com/css/valorant?styles=64778"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto:wght@100;300;400;500&display=swap"
       rel="stylesheet"
@@ -16,7 +19,7 @@
     <title>Valorant</title>
   </head>
   <body>
-      <!--
+    <!--
         ************
         Banner Principal
         ************
@@ -35,38 +38,22 @@
           <ul>
             <li>
               <p>
-                <a href="#intro">
-                  O que é
-                </a>
+                <a href="#intro"> O que é </a>
               </p>
             </li>
             <li>
               <p>
-                <a href="#intro">
-                Como jogar
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <a href="#intro">
-                Players
-                </a>
+                <a href="#jogar"> Como jogar </a>
               </p>
             </li>
           </ul>
         </nav>
       </header>
       <div class="title">
-        <span>
-          Um mesmo gênero
-        </span>
-        <h1>
-          Um novo estilo
-        </h1>
-
+        <span> Um mesmo gênero </span>
+        <h1>Um novo estilo</h1>
       </div>
-
+      <div class="blur"></div>
       <video
         preload="true"
         loop="true"
@@ -74,17 +61,51 @@
         muted
         data-testid="homepage-hero-video"
       >
-        <source
-          src="./assets/img/loop-bg.mp4"
-          type="video/mp4"
-        />
+        <source src="./assets/img/loop-bg.mp4" type="video/mp4" />
       </video>
-      <div class='icon-scroll'></div>
+      <a href="#intro">
+        <div class="icon-scroll"></div>
+      </a>
     </section>
-    <scroll-container>
-      <section id="intro" class="intro">
-      
-      </section>
-    </scroll-container>
+    <section id="intro" class="intro">
+      <img src="./assets/img/fenix.png" alt="personagem" />
+      <div class="texts">
+        <p class="text-title">O que é?</p>
+        <p class="text-desc">
+          Lançado em 2020, Valorant é um jogo de tiro online e multiplayer no
+          qual dois grupos com cinco jogadores se enfrentam nos diversos mapas
+          de Valorant, inspirados em locais do mundo real.
+          <br>
+          <br />
+          Dependendo do mapa disputado, cada lado da disputa deverá alcançar um
+          objetivo determinado ou impedir o outro lado de conseguir conquistar
+          essa meta. 
+          <br>
+          <br>
+          Lembra de Counter-Strike? Aqui a jogabilidade é bem
+          parecida, tanto na busca pelos objetivos quanto em alguns detalhes,
+          como a impossibilidade de reviver caso seja abatido.
+        </p>
+      </div>
+    </section>
+    <section id="jogar" class="como-jogar">
+      <h2>Como jogar?</h2>
+      <span>
+        Entre no site oficial, baixe e seja feliz!
+      </span>
+      <button class="btn btn--light">
+        <span class="btn__inner">
+          <span class="btn__slide"></span>
+          <span class="btn__content">
+            <a href="https://playvalorant.com/pt-br/" target='_blank'>
+            Jogue agora
+           </a>
+          </span>
+        </span>
+      </button>
+    </section>
+    <footer class="footer">
+      Feito com ❤️ por Luiz Lopes
+    </footer>
   </body>
 </html>
