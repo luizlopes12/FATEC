@@ -1,0 +1,41 @@
+/* resets */
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seila{
+    width: 100px;
+    height: 100px;
+}
+
+.cavalo{
+    position: absolute;
+    width: 100px;
+    left: 100px;
+}
+
+.marron{
+    background-color: #a52a2a;
+}
+
+.branco{
+    background-color: #ffffff;
+}
+
+
+@keyframes cavalo {
+    
+    
+}
