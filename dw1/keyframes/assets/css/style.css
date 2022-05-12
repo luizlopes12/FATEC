@@ -24,6 +24,7 @@
     position: absolute;
     width: 100px;
     left: 100px;
+    animation: cavalo .1s infinite;
 }
 
 .marron{
@@ -36,6 +37,104 @@
 
 
 @keyframes cavalo {
-    
-    
+    0%{
+        left: 100px;
+        top: 0px;
+    }
+    4%{
+        left: 100px;
+        top: 200px;
+    }
+    8%{
+        left: 200px;
+        top: 200px;
+    }
+    12%{
+        left: 400px;
+        top: 200px;
+    }
+    16%{
+        left: 400px;
+        top: 300px;
+    }
+    20%{
+        left: 400px;
+        top: 500px;
+    }
+    24%{
+        left: 300px;
+        top: 500px;
+    }
+    28%{
+        left: 100px;
+        top: 500px;
+    }
+    32%{
+        left: 100px;
+        top: 600px;
+    }
+    36%{
+        left: 100px;
+        top: 700px;
+    }
+    40%{
+        left: 300px;
+        top: 700px;
+    }
+    44%{
+        left: 300px;
+        top: 600px;
+    }
+    48%{
+        left: 500px;
+        top: 600px;
+    }
+    52%{
+        left: 600px;
+        top: 600px;
+    }
+    56%{
+        left: 600px;
+        top: 400px;
+    }
+    60%{
+        left: 600px;
+        top: 200px;
+    }
+    64%{
+        left: 500px;
+        top: 200px;
+    }
+    68%{
+        left: 500px;
+        top: 0px;
+    }
+    72%{
+        left: 600px;
+        top: 0px;
+    }
+    76%{
+        left: 500px;
+        top: 0px;
+    }
+    80%{
+        left: 500px;
+        top: 200px;
+    }
+    84%{
+        left: 500px;
+        top: 100px;
+    }
+    88%{
+        left: 300px;
+        top: 100px;
+    }
+    92%{
+        left: 300px;
+        top: 0px;
+    }
+    100%{
+        left: 100px;
+        top: 0px;
+    }
 }
